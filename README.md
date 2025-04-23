@@ -13,3 +13,4 @@ Updates in v3:
 -  percent_identity is introduced in _perform_alignment to reduce irrelevant alignments. Now the function only count mutations if alignment quality is decent(custom).
 -  Poisson plot is now included as part of the plot_results function
 -  The mutation positions graph's y-axis has been limited(custom, currently at 95th percentile).
+-  The file can now also take in .seq files(just pure sequences, no fastq format data).
